@@ -31,6 +31,7 @@ requirements:
     - pyproj >=2.3
     - netcdf4 >=1.6
     - click >=8
+    - bottleneck >=1.3
 
 test:
   imports:
