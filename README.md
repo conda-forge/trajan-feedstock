@@ -1,11 +1,11 @@
-About trajan
-============
+About trajan-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/trajan-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/OpenDrift/trajan
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/trajan-feedstock/blob/main/LICENSE.txt)
 
 Summary: Simple, fast, extensible JSON encoder/decoder for Python
 
