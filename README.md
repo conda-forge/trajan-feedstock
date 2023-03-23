@@ -11,7 +11,7 @@ Summary: Simple, fast, extensible JSON encoder/decoder for Python
 
 Development: https://github.com/OpenDrift/trajan
 
-Documentation: https://trajan.readthedocs.io/
+Documentation: https://opendrift.github.io/trajan/
 
 Trajectory analysis package for simulated and observed trajectories
 

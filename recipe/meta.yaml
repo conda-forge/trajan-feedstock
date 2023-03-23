@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
   entry_points:
     - trajanshow = trajan.scripts.trajanshow:main
 
@@ -51,7 +51,7 @@ about:
   license: GPL-2.0-or-later
   license_family: GPL
   license_file: LICENSE
-  doc_url: https://trajan.readthedocs.io/
+  doc_url: https://opendrift.github.io/trajan/
   dev_url: https://github.com/OpenDrift/trajan
 
 extra:
