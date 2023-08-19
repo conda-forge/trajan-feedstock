@@ -1,5 +1,5 @@
 {% set name = "trajan" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 405fed4d33e099cf004b35e4285c0785a68b5fa01052519673591f0c435b27f5
+  sha256: 441e95904dc1c7290fb24d8acd3e7eeeaf899afd55144042605ec6e99054c7b1
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 2
+  number: 0
   entry_points:
     - trajanshow = trajan.scripts.trajanshow:main
 
