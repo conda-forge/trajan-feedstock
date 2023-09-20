@@ -7,7 +7,7 @@ Home: https://github.com/OpenDrift/trajan
 
 Package license: GPL-2.0-or-later
 
-Summary: Simple, fast, extensible JSON encoder/decoder for Python
+Summary: Trajectory analysis package for simulated and observed trajectories
 
 Development: https://github.com/OpenDrift/trajan
 
