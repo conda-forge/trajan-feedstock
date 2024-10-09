@@ -1,5 +1,5 @@
 {% set name = "trajan" %}
-{% set version = "0.6.3" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 15d1a4338b7573a228b54ad32d86094fb82db278cc1c62092603700409c426b8
+  sha256: dfa9cb514029f6541f80f736f73a88c19983a26ff94fbc7c5cfb6b40b52ed396
 
 build:
   noarch: python
