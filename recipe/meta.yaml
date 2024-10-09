@@ -21,6 +21,7 @@ requirements:
     - python >=3.8
     - pip
     - poetry >=1
+    - setuptools
   run:
     - python >=3.8
     - numpy >=1.23
