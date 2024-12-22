@@ -6,24 +6,24 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: dfa9cb514029f6541f80f736f73a88c19983a26ff94fbc7c5cfb6b40b52ed396
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
   entry_points:
     - trajanshow = trajan.scripts.trajanshow:main
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
     - poetry >=1
     - setuptools
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - numpy >=1.23
     - scipy >=1.9
     - xarray >=2022.6.0
@@ -42,6 +42,7 @@ test:
     - trajan
   requires:
     - pip
+    - python {{ python_min }}
   commands:
     - pip check
     - trajanshow --help
