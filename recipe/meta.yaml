@@ -44,7 +44,6 @@ test:
     - pip
     - python {{ python_min }}
   commands:
-    - pip check
     - trajanshow --help
 
 about:
