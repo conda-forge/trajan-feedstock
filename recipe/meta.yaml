@@ -31,6 +31,7 @@ requirements:
     - matplotlib-base >=3.5
     - cartopy >=0.21
     - pyproj >=2.3
+    - proj <9.8
     - click >=8
     - cf_xarray >=0.8
     - netcdf4 >=1.6
@@ -45,6 +46,7 @@ test:
     - python {{ python_min }}
   commands:
     - trajanshow --help
+    - pip check
 
 about:
   home: https://github.com/OpenDrift/trajan
